@@ -2,6 +2,7 @@ vezeteknev = input("Add meg a vezetéknevedet: ")
 keresztnev = input("Add meg a keresztnevedet: ")
 
 print(f"{vezeteknev} {keresztnev} üdvözöllek.")
+print(f"{keresztnev} {vezeteknev} üdvözöllek.")
 
 szam = input("Adj meg egy számot: ")
 szamAtvezetes = int(szam)
