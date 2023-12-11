@@ -27,3 +27,8 @@ print(f"A két szám különbsége: {szamKulonbseg}")
 
 aValtozo = input("Add meg az első változó értékét: ")
 bValtozo = input("Add meg a második változó értékét: ")
+aValtozoAtszamolas = int(aValtozo)
+bValtozoAtszamolas = int(bValtozo)
+c = 2 * aValtozoAtszamolas + 3 * bValtozoAtszamolas
+d = c - 2 * aValtozoAtszamolas - 3 * bValtozoAtszamolas
+print(f"C értéke: {c}, D értéke: {d}")
